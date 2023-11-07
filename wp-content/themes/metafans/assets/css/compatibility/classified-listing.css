@@ -1,0 +1,190 @@
+/*--- All Listings ----*/
+
+.rtcl .rtcl-list-view .listing-item{
+	margin-bottom: 15px;
+}
+.rtcl .rtcl-listings .listing-item .listing-thumb{
+	padding: 0;
+	border: none;
+	border-radius: 3px;
+	text-align: center;
+	overflow: hidden;
+}
+.rtcl .rtcl-listings .listing-item .badge,
+.rtcl .single-listing .badge{
+	border-radius: 2px;
+}
+.rtcl .rtcl-listings .listing-item .rtcl-listing-meta-data,
+.rtcl .single-listing .rtcl-listing-meta-data{
+	margin-bottom: 15px;
+}
+.rtcl .rtcl-listings .listing-item .rtcl-listing-meta-data span,
+.rtcl .single-listing .rtcl-listing-meta-data span{
+    margin-right: 10px;
+    position: relative;
+    padding-left: 18px;
+}
+.rtcl .rtcl-listings .listing-item .rtcl-listing-meta-data span.author,
+.rtcl .single-listing .rtcl-listing-meta-data span.author{
+	padding-left: 0px;
+}
+.rtcl .rtcl-listings .listing-item .rtcl-listing-meta-data span.rt-views,
+.rtcl .single-listing .rtcl-listing-meta-data span.rt-views{
+	padding-left: 22px;
+}
+.rtcl-listing-meta-data i{
+	display: none;
+}
+.rtcl-listing-meta-data .updated:before{
+	position: absolute;
+    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16"><path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/><path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/></svg>');
+    width: 18px;
+    height: 18px;
+    left: 0;
+    top: 3px;
+}
+.rtcl-listing-meta-data .rt-categories:before{
+	position: absolute;
+    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16"><path d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/><path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/></svg>');
+    width: 18px;
+    height: 18px;
+    left: 0;
+    top: 3px;
+}
+.rtcl-listing-meta-data .rt-location:before{
+	position: absolute;
+    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16"><path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/><path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>');
+    width: 18px;
+    height: 18px;
+    left: 0;
+    top: 3px;
+}
+.rtcl-listing-meta-data .rt-views:before{
+	position: absolute;
+    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16"><path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/><path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/></svg>');
+    width: 18px;
+    height: 18px;
+    left: 0;
+    top: 3px;
+}
+/*Single Listing*/
+.rtcl-single-listing-details{
+	background: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+}
+.entry .entry-content .rtcl{
+	margin-top: 10px;
+}
+.rtcl-listing-side-title h3{
+	background: #fff;
+    padding: 10px 15px;
+    margin: 0;
+    border-bottom: 1px solid #eee;
+}
+.rtcl .rtcl-listing-user-info .list-group-item{
+	border: none !important; 
+}
+.rtcl .rtcl-listing-user-info .list-group-item .rtcl-icon{
+	background: #2e7dd12b;
+    border-radius: 5px;
+    padding: 5px;
+}
+.rtcl .list-group-item:first-child{
+	border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+.rtcl .rtcl-website a{
+	display: inherit;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+.rtcl-icon-phone .numbers,
+.rtcl-icon-location .locations{
+	font-weight: 600;
+}
+.rtcl .list-group-item:last-of-type{
+	border-bottom-width: 0px;
+}
+.rtcl .list-group-item{
+	border: 1px solid rgba(0,0,0,.05);
+}
+/*--- Paginations ----*/
+.rtcl nav.rtcl-pagination ul{
+	border: none;
+}
+.rtcl nav.rtcl-pagination ul li{
+    margin: 0 4px;
+    border-right: none;
+}
+.rtcl nav.rtcl-pagination ul li a, .rtcl nav.rtcl-pagination ul li span{
+	padding: 10px;
+	border-radius: 3px;
+}
+.rtcl-pagination ul.page-numbers li a.page-numbers{
+	background-color: #ffffff;
+	color: #555;
+}
+.rtcl-pagination ul.page-numbers li span.page-numbers.current, .rtcl-pagination ul.page-numbers li a.page-numbers:hover{
+	color: #fff;
+}
+
+/*---- My Account --------*/
+.rtcl-MyAccount-wrap{
+    background: #fff;
+    padding: 20px 0 0;
+    border: 1px solid #eee;
+}
+.rtcl .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #eee;
+}
+.rtcl .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul{
+	margin: 0px 25px 0;
+}
+.rtcl .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation{
+	margin-bottom: 0px;
+}
+.rtcl-MyAccount-content{
+	padding: 30px;
+}
+.rtcl-MyAccount-content .rtcl-user-info{
+	align-items: center;
+}
+.rtcl-MyAccount-content .rtcl-user-info img{
+	border-radius: 50px;
+}
+.rtcl .rtcl-MyAccount-wrap .row{
+	margin-left: 0px;
+}
+
+.entry-content .rtcl .form-control,
+.entry-content .rtcl .btn{
+	font-size: 14px;
+}
+.rtcl .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li a{
+	padding: 0 5px 15px;
+	display: inline-block;
+}
+.rtcl .rtcl-MyAccount-wrap .rtcl-MyAccount-navigation ul li.is-active a{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	margin-bottom: -1px;
+}
+/*---- Submit a Listings-----*/
+.rtcl .rtcl-post-section-title h3{
+	border-bottom: 1px solid #eee;
+}
+.rtcl .rtcl-post-section-title h3:before{
+	display: none;
+}
+.rtcl .rtcl-post-section-title h3 .rtcl-icon{
+	display: none;
+}
+.rtcl .rtcl-post-section-title h3 .rtcl-icon{
+	display: none;
+}
+.rtcl-post-form-wrap form{
+	margin-bottom: 0px;
+}
